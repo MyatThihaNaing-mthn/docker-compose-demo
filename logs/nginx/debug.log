@@ -15,3 +15,323 @@
 2023/12/25 13:04:09 [notice] 1#1: signal 17 (SIGCHLD) received from 20
 2023/12/25 13:04:09 [notice] 1#1: worker process 20 exited with code 0
 2023/12/25 13:04:09 [notice] 1#1: exit
+2025/06/03 13:49:45 [notice] 1#1: using the "epoll" event method
+2025/06/03 13:49:45 [notice] 1#1: nginx/1.27.5
+2025/06/03 13:49:45 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 13:49:45 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 13:49:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 13:49:45 [notice] 1#1: start worker processes
+2025/06/03 13:49:45 [notice] 1#1: start worker process 20
+2025/06/03 13:49:52 [info] 20#20: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:49:57 [info] 20#20: *2 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:50:02 [info] 20#20: *3 client 192.168.65.1 closed keepalive connection
+2025/06/03 13:50:02 [info] 20#20: *4 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:50:12 [info] 20#20: *6 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:50:27 [info] 20#20: *7 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:50:32 [info] 20#20: *8 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:51:02 [info] 20#20: *9 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:51:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 13:51:35 [notice] 20#20: gracefully shutting down
+2025/06/03 13:51:35 [notice] 20#20: exiting
+2025/06/03 13:51:35 [notice] 20#20: exit
+2025/06/03 13:51:35 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 13:51:35 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 13:51:35 [notice] 1#1: exit
+2025/06/03 13:54:37 [notice] 1#1: using the "epoll" event method
+2025/06/03 13:54:37 [notice] 1#1: nginx/1.27.5
+2025/06/03 13:54:37 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 13:54:37 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 13:54:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 13:54:37 [notice] 1#1: start worker processes
+2025/06/03 13:54:37 [notice] 1#1: start worker process 20
+2025/06/03 13:55:45 [info] 20#20: *2 client timed out (110: Operation timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:56:22 [info] 20#20: *5 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:57:22 [info] 20#20: *6 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 13:59:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 13:59:55 [notice] 20#20: gracefully shutting down
+2025/06/03 13:59:55 [notice] 20#20: exiting
+2025/06/03 13:59:55 [notice] 20#20: exit
+2025/06/03 13:59:56 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 13:59:56 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 13:59:56 [notice] 1#1: exit
+2025/06/03 14:06:59 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:06:59 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:06:59 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:06:59 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:06:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:06:59 [notice] 1#1: start worker processes
+2025/06/03 14:06:59 [notice] 1#1: start worker process 20
+2025/06/03 14:07:43 [info] 20#20: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:07:43 [info] 20#20: *2 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:07:58 [info] 20#20: *6 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:07:58 [info] 20#20: *5 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:18:19 [info] 20#20: *8 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:18:19 [info] 20#20: *9 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:18:24 [info] 20#20: *11 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:18:24 [info] 20#20: *12 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:20:29 [info] 20#20: *14 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:20:29 [info] 20#20: *15 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:22:14 [info] 20#20: *18 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:22:14 [info] 20#20: *17 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:22:19 [info] 20#20: *21 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:22:19 [info] 20#20: *20 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:22:29 [info] 20#20: *23 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:22:29 [info] 20#20: *24 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:24:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 14:24:04 [notice] 20#20: gracefully shutting down
+2025/06/03 14:24:04 [notice] 20#20: exiting
+2025/06/03 14:24:04 [notice] 20#20: exit
+2025/06/03 14:24:04 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 14:24:04 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 14:24:04 [notice] 1#1: exit
+2025/06/03 14:24:04 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:24:04 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:24:04 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:24:04 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:24:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:24:04 [notice] 1#1: start worker processes
+2025/06/03 14:24:04 [notice] 1#1: start worker process 20
+2025/06/03 14:24:15 [notice] 20#20: *2 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:24:15 [notice] 20#20: *2 rewritten data: "/", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:24:15 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", upstream: "http://172.16.100.104:81/", host: "127.0.0.1"
+2025/06/03 14:24:19 [info] 20#20: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:24:19 [info] 20#20: *2 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:25:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 14:25:40 [notice] 20#20: gracefully shutting down
+2025/06/03 14:25:40 [notice] 20#20: exiting
+2025/06/03 14:25:40 [notice] 20#20: exit
+2025/06/03 14:25:40 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 14:25:40 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 14:25:40 [notice] 1#1: exit
+2025/06/03 14:26:31 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:26:31 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:26:31 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:26:31 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:26:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:26:31 [notice] 1#1: start worker processes
+2025/06/03 14:26:31 [notice] 1#1: start worker process 20
+2025/06/03 14:26:39 [info] 20#20: *2 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:26:39 [info] 20#20: *1 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:44 [info] 20#20: *4 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:26:44 [info] 20#20: *5 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/themes/pmahomme/jquery/jquery-ui.css", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/jquery/jquery-ui.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/themes/pmahomme/jquery/jquery-ui.css", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/jquery/jquery-ui.css HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/lib/codemirror.css", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/lib/codemirror.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/vendor/codemirror/lib/codemirror.css", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/lib/codemirror.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.css", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/vendor/codemirror/addon/hint/show-hint.css", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/lint/lint.css", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/lint/lint.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 rewritten data: "/js/vendor/codemirror/addon/lint/lint.css", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/lint/lint.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery.min.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/vendor/jquery/jquery.min.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/themes/pmahomme/css/theme.css", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/themes/pmahomme/css/theme.css", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/css/theme.css?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery-migrate.min.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-migrate.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/vendor/jquery/jquery-migrate.min.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-migrate.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/sprintf.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/sprintf.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/js/vendor/sprintf.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/sprintf.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/ajax.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/ajax.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/dist/ajax.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/ajax.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/keyhandler.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/keyhandler.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/dist/keyhandler.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/keyhandler.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery-ui.min.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-ui.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 rewritten data: "/js/vendor/jquery/jquery-ui.min.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-ui.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/name-conflict-fixes.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/name-conflict-fixes.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/js/dist/name-conflict-fixes.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/name-conflict-fixes.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/bootstrap/bootstrap.bundle.min.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/bootstrap/bootstrap.bundle.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/js/vendor/bootstrap/bootstrap.bundle.min.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/bootstrap/bootstrap.bundle.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/js.cookie.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/js.cookie.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/vendor/js.cookie.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/js.cookie.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery.validate.min.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.validate.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/vendor/jquery/jquery.validate.min.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.validate.min.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery-ui-timepicker-addon.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-ui-timepicker-addon.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/vendor/jquery/jquery-ui-timepicker-addon.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery-ui-timepicker-addon.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/jquery/jquery.debounce-1.0.6.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.debounce-1.0.6.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/js/vendor/jquery/jquery.debounce-1.0.6.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/jquery/jquery.debounce-1.0.6.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/menu_resizer.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/menu_resizer.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/dist/menu_resizer.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/menu_resizer.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/cross_framing_protection.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/cross_framing_protection.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/dist/cross_framing_protection.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/cross_framing_protection.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/doclinks.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/doclinks.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/js/dist/doclinks.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/doclinks.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/config.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/config.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/dist/config.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/config.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/functions.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/functions.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/dist/functions.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/functions.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/indexes.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/indexes.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/js/dist/indexes.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/indexes.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/navigation.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/navigation.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/dist/navigation.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/navigation.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/common.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/common.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/js/dist/common.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/common.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/page_settings.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/page_settings.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/dist/page_settings.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/page_settings.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/lib/codemirror.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/lib/codemirror.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/js/vendor/codemirror/lib/codemirror.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/lib/codemirror.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/mode/sql/sql.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/mode/sql/sql.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/js/vendor/codemirror/mode/sql/sql.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/mode/sql/sql.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/vendor/codemirror/addon/hint/show-hint.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/show-hint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/runmode/runmode.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/runmode/runmode.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 rewritten data: "/js/vendor/codemirror/addon/runmode/runmode.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/runmode/runmode.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/hint/sql-hint.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/sql-hint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/vendor/codemirror/addon/hint/sql-hint.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/hint/sql-hint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/codemirror/addon/lint/lint.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/lint/lint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 rewritten data: "/js/vendor/codemirror/addon/lint/lint.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/codemirror/addon/lint/lint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/codemirror/addon/lint/sql-lint.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/codemirror/addon/lint/sql-lint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/dist/codemirror/addon/lint/sql-lint.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/codemirror/addon/lint/sql-lint.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/vendor/tracekit.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/tracekit.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *15 rewritten data: "/js/vendor/tracekit.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/vendor/tracekit.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/error_report.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/error_report.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/js/dist/error_report.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/error_report.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/drag_drop_import.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/drag_drop_import.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/js/dist/drag_drop_import.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/drag_drop_import.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/shortcuts_handler.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/shortcuts_handler.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *13 rewritten data: "/js/dist/shortcuts_handler.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/shortcuts_handler.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/js/dist/console.js", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/console.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *12 rewritten data: "/js/dist/console.js", args: "v=5.2.2", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/js/dist/console.js?v=5.2.2 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/themes/pmahomme/img/logo_right.png", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/img/logo_right.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *8 rewritten data: "/themes/pmahomme/img/logo_right.png", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/img/logo_right.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/themes/dot.gif", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/dot.gif HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *7 rewritten data: "/themes/dot.gif", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/dot.gif HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/themes/pmahomme/img/b_help.png", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/img/b_help.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/themes/pmahomme/css/theme.css?v=5.2.2"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/themes/pmahomme/img/b_help.png", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/themes/pmahomme/img/b_help.png HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/themes/pmahomme/css/theme.css?v=5.2.2"
+2025/06/03 14:26:51 [notice] 20#20: *17 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/favicon.ico", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:51 [notice] 20#20: *17 rewritten data: "/favicon.ico", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/phpmyadmin/"
+2025/06/03 14:26:54 [info] 20#20: *15 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:54 [info] 20#20: *17 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:54 [info] 20#20: *12 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:54 [info] 20#20: *8 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:54 [info] 20#20: *7 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:26:54 [info] 20#20: *13 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:27:09 [info] 20#20: *58 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:27:09 [info] 20#20: *57 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:28:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 14:28:39 [notice] 20#20: gracefully shutting down
+2025/06/03 14:28:39 [notice] 20#20: exiting
+2025/06/03 14:28:39 [notice] 20#20: exit
+2025/06/03 14:28:39 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 14:28:39 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 14:28:39 [notice] 1#1: exit
+2025/06/03 14:28:40 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:28:40 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:28:40 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:28:40 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:28:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:28:40 [notice] 1#1: start worker processes
+2025/06/03 14:28:40 [notice] 1#1: start worker process 20
+2025/06/03 14:28:47 [notice] 20#20: *1 "^/phpmyadmin/(.*)$" matches "/phpmyadmin/", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:28:47 [notice] 20#20: *1 rewritten data: "/", args: "", client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", host: "127.0.0.1"
+2025/06/03 14:28:49 [info] 20#20: *2 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:28:49 [info] 20#20: *1 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:28:54 [info] 20#20: *5 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:28:54 [info] 20#20: *6 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:34:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 14:34:20 [notice] 20#20: gracefully shutting down
+2025/06/03 14:34:20 [notice] 20#20: exiting
+2025/06/03 14:34:20 [notice] 20#20: exit
+2025/06/03 14:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 14:34:20 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 14:34:20 [notice] 1#1: exit
+2025/06/03 14:34:20 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:34:20 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:34:20 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:34:20 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:34:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:34:20 [notice] 1#1: start worker processes
+2025/06/03 14:34:20 [notice] 1#1: start worker process 20
+2025/06/03 14:34:29 [info] 20#20: *1 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:34:29 [info] 20#20: *2 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:35:04 [info] 20#20: *4 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:35:04 [info] 20#20: *5 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:35:24 [info] 20#20: *7 client 192.168.65.1 closed keepalive connection
+2025/06/03 14:35:24 [info] 20#20: *9 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:44:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 14:44:01 [notice] 20#20: gracefully shutting down
+2025/06/03 14:44:01 [notice] 20#20: exiting
+2025/06/03 14:44:01 [notice] 20#20: exit
+2025/06/03 14:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/06/03 14:44:01 [notice] 1#1: worker process 20 exited with code 0
+2025/06/03 14:44:01 [notice] 1#1: exit
+2025/06/03 14:56:00 [notice] 1#1: using the "epoll" event method
+2025/06/03 14:56:00 [notice] 1#1: nginx/1.27.5
+2025/06/03 14:56:00 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/06/03 14:56:00 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/06/03 14:56:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/03 14:56:00 [notice] 1#1: start worker processes
+2025/06/03 14:56:00 [notice] 1#1: start worker process 19
+2025/06/03 14:56:05 [info] 19#19: *1 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 14:56:05 [info] 19#19: *2 client 192.168.65.1 closed keepalive connection
+2025/06/03 15:08:26 [info] 19#19: *4 client timed out (110: Operation timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 15:08:49 [info] 19#19: *5 client 192.168.65.1 closed keepalive connection
+2025/06/03 15:09:04 [info] 19#19: *6 client 192.168.65.1 closed keepalive connection
+2025/06/03 15:24:46 [info] 19#19: *7 client 192.168.65.1 closed keepalive connection
+2025/06/03 15:24:51 [info] 19#19: *9 client 192.168.65.1 closed keepalive connection
+2025/06/03 16:48:09 [info] 19#19: *12 client 192.168.65.1 closed keepalive connection
+2025/06/03 16:48:09 [info] 19#19: *11 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 16:48:14 [info] 19#19: *13 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 16:48:14 [info] 19#19: *14 client closed connection while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/06/03 18:16:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/03 18:16:48 [notice] 19#19: gracefully shutting down
+2025/06/03 18:16:48 [notice] 19#19: exiting
+2025/06/03 18:16:48 [notice] 19#19: exit
+2025/06/03 18:16:48 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2025/06/03 18:16:48 [notice] 1#1: worker process 19 exited with code 0
+2025/06/03 18:16:48 [notice] 1#1: exit
+2025/07/15 08:33:57 [notice] 1#1: using the "epoll" event method
+2025/07/15 08:33:57 [notice] 1#1: nginx/1.27.5
+2025/07/15 08:33:57 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 08:33:57 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/07/15 08:33:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 08:33:57 [notice] 1#1: start worker processes
+2025/07/15 08:33:57 [notice] 1#1: start worker process 20
+2025/07/15 08:35:16 [info] 20#20: *1 client timed out (110: Operation timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/07/15 08:35:19 [info] 20#20: *2 client 192.168.65.1 closed keepalive connection
+2025/07/15 08:38:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/15 08:38:38 [notice] 20#20: gracefully shutting down
+2025/07/15 08:38:38 [notice] 20#20: exiting
+2025/07/15 08:38:38 [notice] 20#20: exit
+2025/07/15 08:38:38 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/15 08:38:38 [notice] 1#1: worker process 20 exited with code 0
+2025/07/15 08:38:38 [notice] 1#1: exit
+2025/07/15 08:38:58 [notice] 1#1: using the "epoll" event method
+2025/07/15 08:38:58 [notice] 1#1: nginx/1.27.5
+2025/07/15 08:38:58 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 08:38:58 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/07/15 08:38:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 08:38:58 [notice] 1#1: start worker processes
+2025/07/15 08:38:58 [notice] 1#1: start worker process 20
+2025/07/15 08:40:28 [info] 20#20: *1 client timed out (110: Operation timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80
+2025/07/15 08:44:59 [info] 20#20: *5 client 192.168.65.1 closed keepalive connection
+2025/07/15 08:46:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/15 08:46:17 [notice] 20#20: gracefully shutting down
+2025/07/15 08:46:17 [notice] 20#20: exiting
+2025/07/15 08:46:17 [notice] 20#20: exit
+2025/07/15 08:46:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/15 08:46:17 [notice] 1#1: worker process 20 exited with code 0
+2025/07/15 08:46:17 [notice] 1#1: exit
+2025/07/15 08:46:17 [notice] 1#1: using the "epoll" event method
+2025/07/15 08:46:17 [notice] 1#1: nginx/1.27.5
+2025/07/15 08:46:17 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 08:46:17 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/07/15 08:46:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 08:46:17 [notice] 1#1: start worker processes
+2025/07/15 08:46:17 [notice] 1#1: start worker process 20
+2025/07/15 08:46:32 [info] 20#20: *1 client 192.168.65.1 closed keepalive connection
+2025/07/15 08:48:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/15 08:48:52 [notice] 20#20: gracefully shutting down
+2025/07/15 08:48:52 [notice] 20#20: exiting
+2025/07/15 08:48:52 [notice] 20#20: exit
+2025/07/15 08:48:52 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/15 08:48:52 [notice] 1#1: worker process 20 exited with code 0
+2025/07/15 08:48:52 [notice] 1#1: exit
+2025/07/15 08:48:52 [notice] 1#1: using the "epoll" event method
+2025/07/15 08:48:52 [notice] 1#1: nginx/1.27.5
+2025/07/15 08:48:52 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 08:48:52 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/07/15 08:48:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 08:48:52 [notice] 1#1: start worker processes
+2025/07/15 08:48:52 [notice] 1#1: start worker process 20
+2025/07/15 08:54:59 [info] 20#20: *53 client 192.168.65.1 closed keepalive connection

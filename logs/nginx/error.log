@@ -1,2 +1,11 @@
 2023/12/25 12:46:21 [warn] 20#20: *3 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 172.16.100.1, server: demo.uniqerp.com, request: "GET / HTTP/1.0", upstream: "fastcgi://172.16.100.101:9000", host: "demo.uniqerp.com"
 2023/12/25 12:57:46 [warn] 20#20: *10 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 172.16.100.1, server: demo.uniqerp.com, request: "GET / HTTP/1.0", upstream: "fastcgi://172.16.100.101:9000", host: "demo.uniqerp.com"
+2025/06/03 13:43:36 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 13:46:24 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 13:48:57 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 13:54:27 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 14:00:14 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 14:24:15 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.65.1, server: demo.test, request: "GET /phpmyadmin/ HTTP/1.1", upstream: "http://172.16.100.104:81/", host: "127.0.0.1"
+2025/06/03 14:26:07 [emerg] 1#1: host not found in upstream "phpmyadmin.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/06/03 14:44:23 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
+2025/07/15 08:27:08 [emerg] 1#1: host not found in upstream "app.test" in /etc/nginx/conf.d/demo.app.conf:16
