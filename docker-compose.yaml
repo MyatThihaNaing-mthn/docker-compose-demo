@@ -14,9 +14,9 @@ services:
     image: nginx.test
     container_name: nginx.test
     depends_on:
-      app.test:
+      app:
         condition: service_started
-      phpmyadmin.test:
+      phpmyadmin:
         condition: service_started
     volumes:
       - "./nginx/app_conf:/etc/nginx/conf.d/"
