@@ -46,7 +46,7 @@ services:
 
   app.test:
     image: image.test
-    container_name: app.test
+    container_name: app
     # <<: *common_hosts
     depends_on:
       mariadb.test:
@@ -104,7 +104,7 @@ services:
 
   phpmyadmin.test:
     image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin.test
+    container_name: phpmyadmin
     environment:
       PMA_HOST: mariadb.test
       PMA_PASSWORD: password
