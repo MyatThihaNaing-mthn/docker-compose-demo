@@ -44,7 +44,7 @@ services:
     ports:
       - "9000"
 
-  app.test:
+  app:
     image: image.test
     container_name: app
     # <<: *common_hosts
@@ -102,7 +102,7 @@ services:
     ports:
       - "3306"
 
-  phpmyadmin.test:
+  phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
     environment:
