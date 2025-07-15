@@ -335,3 +335,18 @@
 2025/07/15 08:48:52 [notice] 1#1: start worker processes
 2025/07/15 08:48:52 [notice] 1#1: start worker process 20
 2025/07/15 08:54:59 [info] 20#20: *53 client 192.168.65.1 closed keepalive connection
+2025/07/15 09:11:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/07/15 09:11:48 [notice] 20#20: gracefully shutting down
+2025/07/15 09:11:48 [notice] 20#20: exiting
+2025/07/15 09:11:48 [notice] 20#20: exit
+2025/07/15 09:11:48 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2025/07/15 09:11:48 [notice] 1#1: worker process 20 exited with code 0
+2025/07/15 09:11:48 [notice] 1#1: exit
+2025/07/15 09:34:53 [notice] 1#1: using the "epoll" event method
+2025/07/15 09:34:53 [notice] 1#1: nginx/1.29.0
+2025/07/15 09:34:53 [notice] 1#1: built by gcc 14.2.0 (Alpine 14.2.0) 
+2025/07/15 09:34:53 [notice] 1#1: OS: Linux 6.10.14-linuxkit
+2025/07/15 09:34:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/07/15 09:34:53 [notice] 1#1: start worker processes
+2025/07/15 09:34:53 [notice] 1#1: start worker process 20
+2025/07/15 09:44:46 [info] 20#20: *1 client timed out (110: Operation timed out) while waiting for request, client: 192.168.65.1, server: 0.0.0.0:80

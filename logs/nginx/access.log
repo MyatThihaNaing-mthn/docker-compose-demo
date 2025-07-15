@@ -133,3 +133,6 @@
 192.168.65.1 - - [15/Jul/2025:08:49:15 +0000] "GET /admin/themes/pmahomme/img/b_help.png HTTP/1.1" 200 705 "http://localhost/admin/themes/pmahomme/css/theme.css?v=5.2.2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
 192.168.65.1 - - [15/Jul/2025:08:49:15 +0000] "GET /admin/favicon.ico HTTP/1.1" 200 22486 "http://localhost/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
 192.168.65.1 - - [15/Jul/2025:08:54:59 +0000] "HEAD /admin/ HTTP/1.1" 200 0 "-" "curl/8.7.1" "-"
+192.168.65.1 - - [15/Jul/2025:09:43:46 +0000] "GET / HTTP/1.1" 200 86873 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [15/Jul/2025:09:43:51 +0000] "GET /admin/ HTTP/1.1" 200 4522 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
+192.168.65.1 - - [15/Jul/2025:09:43:51 +0000] "GET /admin/js/messages.php?l=en&v=5.2.2 HTTP/1.1" 404 27 "http://localhost/admin/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
